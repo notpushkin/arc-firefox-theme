@@ -493,6 +493,13 @@ menuitem.bookmark-item {
 #downloads-button[cui-areatype="toolbar"][attention="success"] {
     -moz-image-region: rect(18px, 198px, 36px, 180px); }
 
+#downloads-button image.toolbarbutton-icon {
+  /*
+   * Firefox default style sets display: none for [attention], need to explicitly override
+   * (see chrome://browser/content/browser.css:983)
+   */
+  display: unset !important; }
+
 #add-ons-button[cui-areatype="toolbar"] {
   -moz-image-region: rect(0, 216px, 18px, 198px); }
 
