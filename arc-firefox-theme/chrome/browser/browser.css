@@ -490,6 +490,9 @@ menuitem.bookmark-item {
 #downloads-button[cui-areatype="toolbar"] {
   -moz-image-region: rect(0, 198px, 18px, 180px); }
 
+#downloads-button[cui-areatype="toolbar"][attention="success"] {
+    -moz-image-region: rect(18px, 198px, 36px, 180px); }
+
 #add-ons-button[cui-areatype="toolbar"] {
   -moz-image-region: rect(0, 216px, 18px, 198px); }
 
